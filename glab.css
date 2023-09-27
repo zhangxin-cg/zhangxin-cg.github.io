@@ -30,15 +30,29 @@ H5 {
 }
 
 P {
-	text-align: justify; MARGIN-TOP: 0px; font-size: 14px;font-family: "Times New Roman", Times, serif; color: #383838;
+	text-align: justify; MARGIN-TOP: 0px; font-size: 14px;font-family: "Times New Roman", Times, serif; color: #525252;
 }
 A {
-	FONT-WEIGHT: bolder; font-size: 14px; TEXT-DECORATION: none;font-family: "Times New Roman", Times, serif;
+	FONT-WEIGHT: bolder; font-size: 13px; TEXT-DECORATION: none;font-family: "Times New Roman", Times, serif;
+}
+
+NOTE{
+	font-size: 6px;
+}
+
+CONF{
+	font-weight: bolder;
+	text-align: justify; MARGIN-TOP: 0px; font-size: 13px;font-family: "Arial", Times, serif; color: #374b00;
 }
 
 PAPERTITLE {
 	font-weight: bolder;
-	text-align: justify; MARGIN-TOP: 0px; font-size: 15px;font-family: "Times New Roman", Times, serif; color: #383838;
+	text-align: justify; MARGIN-TOP: 0px; font-size: 15px;font-family: "Times New Roman", Times, serif; color: #000000;
+}
+
+CLICK {
+	font-weight: bolder;
+	text-align: justify; MARGIN-TOP: 0px; font-size: 15px;font-family: "Times New Roman", Times, serif; color: #580101;
 }
 
 NAME{
@@ -254,7 +268,7 @@ TD.coursename {
 	/* margin-left: auto;
 	margin-right: auto;
 	align-content: center; */
-	left: 29%;
+	left: 0%;
 	width:100%;
   }
 
