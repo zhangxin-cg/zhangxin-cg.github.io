@@ -47,12 +47,12 @@ CONF{
 
 PAPERTITLE {
 	font-weight: bolder;
-	text-align: justify; MARGIN-TOP: 0px; font-size: 18px;font-family: "Times New Roman", Times, serif; color: #000000;
+	text-align: justify; MARGIN-TOP: 0px; font-size: 18px;font-family: "Arial", Times, serif; color: #000000;
 }
 
 CLICK {
 	font-weight: bolder;
-	text-align: justify; MARGIN-TOP: 0px; font-size: 15px;font-family: "Times New Roman", Times, serif; color: #38abd8;
+	text-align: justify; MARGIN-TOP: 0px; font-size: 15px;font-family: "Times New Roman", Times, serif; color: #001017;
 }
 
 NAME{
