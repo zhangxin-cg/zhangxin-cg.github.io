@@ -1,0 +1,801 @@
+TABLE {
+	VERTICAL-ALIGN: top; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+BODY {
+	FONT-SIZE: normal; COLOR: black; FONT-FAMILY: Georgia, "New Century Schoolbook", Times, serif; BACKGROUND-COLOR: rgb(255, 255, 255);
+	/* padding-left: 100px;
+	padding-right: 100px; */
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+
+H1 {
+	font-size:32px; FONT-WEIGHT: bolder; font-family: "Arial", Times, serif; color: #3d3d3d;
+}
+H2 {
+	MARGIN-TOP: 20px; FONT-WEIGHT: bolder;font-size: 22px; MARGIN-BOTTOM: 20px;font-family: "Sans-serif", Arial, Helvetica, sans-serif, serif;
+	color: rgb(74, 74, 74); 
+}
+H3 {
+	MARGIN-TOP: 6px; FONT-SIZE: normal; MARGIN-BOTTOM: 0px;font-family: "Sans-serif", Times, serif;
+}
+
+H4 {
+	MARGIN-TOP: 0px;  font-weight:lighter;FONT-SIZE:normal; MARGIN-BOTTOM: 0px;font-family: "Arial", Times, serif;
+}
+
+H5 {
+	MARGIN-TOP: 0px;  font-weight:lighter;FONT-SIZE:20px; MARGIN-BOTTOM: 0px;font-family: "Arial", Times, serif;
+}
+
+H6 {
+	 MARGIN-TOP: 0px;  font-weight:lighter;FONT-SIZE:14px; MARGIN-BOTTOM: 0px;font-family: "Arial", Times, serif;
+}
+
+
+UNI {
+	font-size:13px; MARGIN-TOP: 0px;  font-weight:lighter; MARGIN-BOTTOM: 0px;font-family: "Arial", Times, serif;
+}
+
+P {
+	MARGIN-TOP: 0px; font-size: 16px;font-family: "Times New Roman", Times, serif; color: #383838;
+}
+A {
+	FONT-WEIGHT: bolder; TEXT-DECORATION: none;font-family: "Times New Roman", Times, serif;
+}
+A:link {
+	COLOR: #5c6b99
+}
+A:visited {
+	COLOR: #5c6b99
+}
+UL {
+	MARGIN-TOP: 1px; MARGIN-BOTTOM: 15px
+}
+BLOCKQUOTE {
+	MARGIN-LEFT: 6em; TEXT-INDENT: -4em
+}
+BLOCKQUOTE P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+PS {
+	/* font-weight: bolder; */
+	text-align: justify; MARGIN-TOP: 0px; font-size: 14px;font-family: "Times New Roman", Times, serif; color: #462d00;
+}
+PAPERTITLE {
+	font-weight: bolder;
+	text-align: justify; MARGIN-TOP: 0px; font-size: 18px;font-family: "Times New Roman", Times, serif; color: #000000;
+}
+
+#menu {
+	BACKGROUND-COLOR: transparent
+}
+#menu A {
+	DISPLAY: block; COLOR: #666666
+}
+#menu A:hover {
+	COLOR: white; BACKGROUND-COLOR: #990000
+}
+#menu TD {
+	PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 10px/15px Verdana, Lucida, Arial, sans-serif; WIDTH: 100px; COLOR: black; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#internalmenu TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: white; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 10px/15px Verdana, Lucida, Arial, sans-serif; COLOR: black; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+#internalmenu A {
+	DISPLAY: block; COLOR: #666666
+}
+#content {
+	CLEAR: right
+}
+#sidebar {
+	PADDING-RIGHT: 25px; MARGIN-TOP: 0.5em; TEXT-ALIGN: right
+}
+#sidebar IMG {
+	MARGIN: 45px 0px 5px
+}
+#sidebar H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: smaller; MARGIN: 0px
+}
+#primarycontent {
+	LINE-HEIGHT: 1.3; PADDING-TOP: 25px;
+}
+#footer {
+	CLEAR: both; FONT-SIZE: x-small; PADDING-BOTTOM: 10px; PADDING-TOP: 20px
+}
+#projectlist IMG {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+#projectlist TABLE {
+	PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+#summary TD {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; MARGIN: 0px; BORDER-LEFT: 0px
+}
+#people {
+	PADDING-LEFT: 10px; MARGIN-LEFT: 0px; LIST-STYLE-TYPE: none
+}
+DIV.abstract {
+	CLEAR: both; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px solid; MARGIN-TOP: 25px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.abstract PRE {
+	FONT-SIZE: xx-small; MARGIN: 0px
+}
+DIV.abstract H2 {
+
+}
+DIV.abstract IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; FLOAT: right; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+DIV.abstract LI {
+	MARGIN: 0px
+}
+DIV.timestamp {
+	DISPLAY: block; FONT-SIZE: x-small; COLOR: #999999; PADDING-TOP: 10px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: right
+}
+.hide {
+	DISPLAY: none
+}
+#courses TD {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+TD.coursename {
+	FONT-WEIGHT: bolder
+}
+
+
+/* * {
+	box-sizing: border-box;
+  }
+   */
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+	position: relative;
+	/* margin: 0 auto; */
+	/* background-color: #990000; */
+  }
+  
+
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 20px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	padding: 0px 0px;
+	color: rgb(0, 0, 0);
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+	/* margin: 0 auto; */
+  }
+  
+  /* Six columns side by side */
+  .column {
+	float: left;
+	width: 12.5%;
+	text-align: center;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+	opacity: 0.5;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+
+  .lab {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -20%);
+	pointer-events: none; 
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	/* background-color: #f2f2f2; */
+  }
+  .lab span{
+	  background-color: rgb(255, 255, 255);
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  opacity: 0.5;
+	  width: auto;
+  }
+
+  .uni_div {
+	position: relative;
+	transform: translateX(-50%);
+	display: block;
+	/* margin-left: auto;
+	margin-right: auto;
+	align-content: center; */
+	left: 50%;
+	width:100%;
+  }
+
+  .logo_div {
+	position: relative;
+	transform: translateX(-50%);
+	display: block;
+	/* margin-left: auto;
+	margin-right: auto;
+	align-content: center; */
+	left: 9%;
+	width:100%;
+  }
+
+.area {
+	display: flex;
+	align-items: center;
+	padding-left:10%;
+	width: 100%; /* 可选：设置整体区域的宽度 */
+	max-width: 1500px; /* 可选：限制最大宽度 */
+	height: 120px; /* 可选：设置固定高度 */
+}
+.image-area {
+	flex: 1 1 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.image-area img {
+	max-width: 100%;
+	height: auto;
+}
+.title-area {
+	flex: 1 1 80%;
+	padding: 20px; /* 可选：为标题区域添加内边距 */
+	box-sizing: border-box; /* 确保内边距不会影响容器宽度 */
+}
+.title-area h1 {
+	margin: 0;
+}
+  .button_icons{
+	c 100px;
+	padding-right: 100px;
+}
+
+  .button_my{
+	float: left;
+	/* position: relative; */
+	width: 28%;
+	text-align: center;
+	cursor: pointer;
+	transition: all 2.0s;
+  }
+
+  .paper_pic{
+	float: left;
+	width: 15%;
+  }
+  .paper_info{
+	float: right;
+	width:80%;
+	padding-right: 0px;
+  }
+
+   /* a:hover img{
+	  transform:scale(1.1,1.1);
+  } */
+
+  .data_img{
+	float: left;
+	width: 25%;
+  }
+
+  .my_note{
+	float:right;
+	padding-right: 20px;
+	color: #666666;
+	font-size: 14px;
+  }
+
+  .my_logo{
+	padding-right:0px;
+	/* padding-left: -80px; */
+	float: left;
+	width: 16%;
+	text-align: center;
+  }
+
+
+  .logo{
+	float: left;
+	  width:30%
+  }
+
+  .my_txt {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(0%, 340%);
+	pointer-events: none; 
+	color: rgb(114, 114, 114);
+	font-weight: bold;
+	/* background-color: #f2f2f2; */
+  }
+
+  .teaser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .ttt1{
+	  /* background-color: #e2e2e2; */
+  }
+
+  .footer {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:4px;
+	padding-bottom:4px;
+	/* background-color:#ececec; */
+  }
+
+  pre{
+	  background-color: #ececec;
+	  /* margin-left:300px;
+	  width:40%; */
+  }
+
+  * {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+	display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+	font-weight: bolder;
+	color: #f2f2f2;
+	font-size: 20px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	font-weight: bolder;
+	color: #f2f2f2;
+	font-size: 30px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+	background-color: #313f5f;
+  }
+  
+  /* Fading animation */
+  .fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+
+  .compare {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.video-area {
+    flex: 1;
+    margin: 0px;
+    text-align: center;
+}
+
+/* video {
+    width: 100%;
+    height: auto;
+} */
+
+select, video_name {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+video_name {
+    font-size: 16px;
+}
+
+
+.image2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.image2-container img {
+    max-width: 90%;
+    height: auto;
+}
+
+
+  /* Slideshow container */
+  .slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+	display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(66, 82, 189, 0.8);
+  }
+  
+  .image-gallery {
+	display: flex;
+	justify-content: center;
+	gap: 60px; /* 图片间距 */
+	padding: 20px;
+	background-color: #f6f6f6; /* 背景色 */
+	border-radius: 8px; /* 可选：给背景区域添加圆角 */
+}
+.gallery-item {
+	text-align: center;
+	transition: border 0.3s ease; /* 添加过渡效果 */
+}
+.gallery-item img {
+	width: auto;
+	height: 300px; /* 设置统一的图片高度 */
+	object-fit: cover; /* 保持图片比例，裁剪填充 */
+	display: block;
+	margin: 0 auto;
+	transition: border 0.3s ease; /* 添加过渡效果 */
+	box-sizing: border-box;
+	transition: transform 0.3s ease, border-color 0.3s ease; /* 图片缩放和平滑边框过渡效果 */
+}
+.gallery-item:hover img {
+	border: 3px solid #0464b8; /* 鼠标悬停时边框颜色和宽度 */
+	border-radius: 8px; /* 可选：给边框添加圆角 */
+	transform: scale(0.95); /* 图片缩小 5% */
+}
+.gallery-item p {
+	margin: 10px 0 0;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 80%; /* 宽度适应父容器 */
+    height: 0; /* 初始化高度为0 */
+    padding-bottom: 45%; /* 16:9 的高宽比 */
+    margin: auto;
+    background-color: black;
+    overflow: hidden; /* 隐藏超出容器的部分 */
+}
+
+.video-clip {
+    position: absolute;
+    top: 0;
+    width: 100%; /* 使视频宽度适应容器 */
+    height: 100%; /* 使视频高度适应容器 */
+    object-fit: contain; /* 确保视频按比例填充容器 */
+}
+
+.video-clip-left {
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 50%);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+.video-clip-right {
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 50%);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+.video-divider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    cursor: ew-resize;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none; /* 禁用文本选择 */
+	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    font-size: 30px; /* 增加箭头字体大小 */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+	user-select: none; /* 禁用文本选择 */
+	
+}
+
+.arrow-left {
+    left: -30px; /* 调整位置 */
+}
+
+.arrow-right {
+    right: -30px; /* 调整位置 */
+}
+
+.label {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 3px;
+	user-select: none; /* 禁用文本选择 */
+}
+
+.label-left {
+    top: 10px;
+    left: 10px;
+}
+
+.label-right {
+    top: 10px;
+    right: 10px;
+}
+
+
+
+
+.image-wrapper {
+    position: relative;
+    width: 50%; /* 宽度适应父容器 */
+    height: 0; /* 初始化高度为0 */
+    padding-bottom: 30%; /* 16:9 的高宽比 */
+    margin: auto;
+    background-color: black;
+    overflow: hidden; /* 隐藏超出容器的部分 */
+}
+.image-clip {
+    position: absolute;
+    top: 0;
+    width: 100%; /* 使视频宽度适应容器 */
+    height: 100%; /* 使视频高度适应容器 */
+    object-fit: contain; /* 确保视频按比例填充容器 */
+	user-select: none; /* 禁用文本选择 */
+	pointer-events: none;
+}
+
+.image-clip-left {
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 50%);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+.image-clip-right {
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 50%);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+.divider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    cursor: ew-resize;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none; /* 禁用文本选择 */
+	border: 1px solid rgba(0, 0, 0, 0.8); /* 外轮廓颜色和厚度 */
+	/* position: absolute;
+	width: 5px;
+	height: 100%;
+	background-color: #000;
+	cursor: ew-resize;
+	z-index: 1;
+	left: 50%; */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    padding: 10px;
+}
+
+.comparison-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.comparison-image {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.comparison-image img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+	user-select: none; /* 禁用文本选择 */
+	pointer-events: none;
+}
+
+.comparison-divider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    background: #ffffff;
+    cursor: ew-resize;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.comparison-divider::before,
+.comparison-divider::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.comparison-divider::before {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ffffff transparent transparent;
+    left: -20px; /* Adjust positioning as needed */
+}
+
+.comparison-divider::after {
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #ffffff;
+    right: -20px; /* Adjust positioning as needed */
+}
