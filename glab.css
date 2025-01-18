@@ -423,6 +423,16 @@ body {
 }
 
 
+.img-exp {
+	display: flex;
+	gap: 30px; /* 设置图片间隔 */
+	justify-content: flex-start; /* 可选，居中显示 */
+}
+
+.img-exp img {
+
+}
+
 .image-container {
 	display: inline-block; /* 保持图片大小 */
 	position: relative;
